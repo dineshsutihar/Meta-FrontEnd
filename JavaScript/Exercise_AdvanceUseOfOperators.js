@@ -31,3 +31,8 @@ var counter = 0;
 counter += 5;
 counter +=3;
 console.log(counter); //8
+
+//Task : self: to join the string and number using + operator
+var num=10;
+var str="10";
+console.log(num+str); //1010
