@@ -39,3 +39,4 @@ function swapNums(num1, num2) {
     console.log("num1 is " + num1 + " and num2 is " + num2);
 }
 swapNums(5, 4);
+
