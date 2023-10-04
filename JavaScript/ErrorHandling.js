@@ -70,3 +70,4 @@ catch(error){
 finally{
     console.log("This is finally block");
 }
+
