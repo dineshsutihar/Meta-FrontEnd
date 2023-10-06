@@ -64,3 +64,5 @@ var baldEagle = new Eagle();
 var kingPenguin = new Penguin();
 baldEagle.useWings(); //Flying high!
 kingPenguin.useWings(); //I can't fly!
+
+//thats all in this file.
