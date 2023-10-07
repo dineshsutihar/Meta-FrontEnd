@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Moule Scripts</title>
+</head>
+<body>
+    Js script as moudles.
+    <script type="module">
+        import { informalGreeting } from './greetings.js';
+        informalGreeting('Jane ');
+    </script>
+    <script type="module">
+        import { informalGreeting,formalGreeting } from './greetings.js';
+        formalGreeting('John ');
+        greeting();
+    </script>
+</body>
+</html>
