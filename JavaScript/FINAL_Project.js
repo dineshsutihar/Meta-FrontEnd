@@ -28,22 +28,34 @@ function getPrices(taxBoolean) {
         } else {
             finalPrice = dish.price;
         }
-        console.log(`Dish: ${dish.name}, Price: $${finalPrice.toFixed(2)}`);
+        console.log(`Dish: ${dish.name} Price: $${finalPrice.toFixed(2)}`);
     }
 }
+
 
 // Implement getDiscount()
-function getDiscount(guests) {
-    getPrices(true); // Assume tax is applied
-    
-    if (guests >= 5 && guests <= 10) {
-        console.log('Discount: 10%');
-    } else if (guests > 10) {
-        console.log('Discount: 15%');
+function getDiscount(booltext,guests) {
+    getPrices(booltext); // Assume tax is applied
+
+    if (typeof guests === 'number' && guests >= 0 && guests <= 30) {
+        let discount = 0;
+
+        if (guests < 5) {
+            discount = 5;
+        } else if (guests >= 5 && guests <= 10) {
+            discount = 10;
+        } else if (guests > 10) {
+            discount = 15;
+        }
+
+        console.log(`Discount is: $${discount}`);
     } else {
-        console.log('No additional discount');
+        console.log('The second argument must be a number between 0 and 30');
     }
 }
 
+
+//test 1
 // Call getDiscount() with number of guests
-getDiscount(8);
+getDiscount(true, 2)
+getDiscount(false, 10)
