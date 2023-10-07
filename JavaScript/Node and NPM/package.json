@@ -1,0 +1,18 @@
+{
+  "name": "test1",
+  "version": "1.0.1",
+  "description": "Testing discription for test1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "testNODE"
+  },
+  "keywords": [
+    "noe"
+  ],
+  "author": "dinesh sutihar",
+  "license": "UNLICENSED"
+}

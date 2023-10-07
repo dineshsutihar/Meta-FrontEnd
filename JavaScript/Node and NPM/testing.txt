@@ -1,0 +1,4 @@
+Types of Testing : 
+1. e2e testing.
+2. Inegration Testing
+3. Unit Testing
