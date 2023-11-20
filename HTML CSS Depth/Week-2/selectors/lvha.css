@@ -1,0 +1,25 @@
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: white;
+    background-color: black;
+}
+
+.textual {
+    margin: 10px;
+    padding: 10px;
+}
+
+.textual:hover {
+    box-shadow: 5px 0px 25px black;
+}
