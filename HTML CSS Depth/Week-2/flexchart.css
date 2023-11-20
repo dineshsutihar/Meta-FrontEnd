@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.row .label {
+    flex: 0 1 auto;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 20px;
+}
+
+.pasta {
+    flex: 0 1 35%;
+    background-color: #FF6347;
+}
+
+.pizza {
+    flex: 0 1 50%;
+    background-color: #FFD700;
+}
+
+.burrito {
+    flex: 0 1 15%;
+    background-color: #32CD32;
+}
