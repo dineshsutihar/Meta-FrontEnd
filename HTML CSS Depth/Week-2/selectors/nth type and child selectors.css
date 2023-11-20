@@ -9,3 +9,6 @@ li:nth-of-type(2) {
 
 /* above both are same  */
 
+li:nth-child(odd) {
+    color: aqua;
+}
