@@ -1,0 +1,11 @@
+li:nth-child(2) {
+    color: red;
+}
+/* Alternative */
+
+li:nth-of-type(2) {
+    color: red;
+}
+
+/* above both are same  */
+
