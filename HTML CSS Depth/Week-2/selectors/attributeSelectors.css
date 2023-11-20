@@ -9,3 +9,19 @@ body {
     justify-content: center;
     height: 100vh;
 }
+
+a[href*="google"] { /* all href tag contain google word */
+    color: green;
+}
+
+a[href^="https"] { /* all href tag start with https */
+    color: blue;
+}
+
+a[href$="com"] { /* all href tag end with com */
+    color: yellow;
+}
+
+a[href="https://www.google.com"] { /* all href tag contain this link */
+    color: pink;
+}
