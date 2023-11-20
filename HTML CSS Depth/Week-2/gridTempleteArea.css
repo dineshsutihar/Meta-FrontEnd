@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    height: 200px;
+    grid-template-areas: "header header header"
+                         "nav main main"
+                         "footer footer footer";
+
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 150px 2fr 1fr;
+}
+
+header {
+    grid-area: header;
+    background-color: #2c3333;
+    text-align: center;
+    padding: 2em;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #395B64;
+    text-align: center;
+    padding: 2em;
+}
+
+main {
+    grid-area: main;
+    background-color: #9a1515;
+    text-align: center;
+    padding: 2em;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #a5c9a5;
+    text-align: center;
+    padding: 2em;
+}
+
+
