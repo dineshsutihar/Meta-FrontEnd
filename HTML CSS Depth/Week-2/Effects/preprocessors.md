@@ -82,4 +82,4 @@ div
 
 This code defines a function `add` and uses it to calculate the margin value.
 
-Preprocessors offer various features, and the space of CSS preprocessors is competitive. Once you're comfortable with regular CSS, exploring preprocessors becomes essential due to their advanced features. The use of preprocessors is almost unavoidable in modern web development, given their capabilities beyond traditional CSS.
+Preprocessors offer various features, and the space of CSS preprocessors is competitive. Once you're comfortable with regular CSS, exploring preprocessors becomes essential due to their advanced features. The use of preprocessors is almost unavoidable in modern web development, given their capabilities beyond traditional CSS. 
