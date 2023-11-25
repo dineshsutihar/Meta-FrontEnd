@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-color: #cebbbb;
     font-family: 'Roboto', sans-serif;
     color: #333;
     margin-top: 3rem;
@@ -59,8 +59,17 @@ article {
     flex: 1;
 }
 
+.head-content {
+    background-color: rgb(197, 200, 170);
+    height: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .content-data{
-    background-color: seashell;
+    background-color: rgb(195, 165, 143);
     border-radius: 15px;
     padding: 15px;
     text-align: center;
@@ -69,10 +78,10 @@ article {
 .content-data p {
     /* making paragraph justifid */
     text-align: justify;
-
 }
 
 footer {
+    margin-top: 20px;
     display: flex;
     gap: 20px;
     background-color: rgb(145, 158, 48);
