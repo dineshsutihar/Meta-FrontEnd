@@ -68,11 +68,19 @@ article {
 
 .content-data p {
     /* making paragraph justifid */
-    
+    text-align: justify;
+
 }
 
 footer {
     display: flex;
+    gap: 20px;
+    background-color: rgb(145, 158, 48);
+    height: 20px;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
 }
 
 footer div {
