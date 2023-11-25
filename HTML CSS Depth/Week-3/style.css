@@ -52,10 +52,23 @@ nav a:hover {
 
 section {
     display: flex;
+    gap: 20px;
 }
 
 article {
     flex: 1;
+}
+
+.content-data{
+    background-color: seashell;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.content-data p {
+    /* making paragraph justifid */
+    
 }
 
 footer {
