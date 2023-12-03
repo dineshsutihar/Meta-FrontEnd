@@ -8,5 +8,7 @@ function Nav() {
             <li><a href="#contact">Contact</a></li>
         </ul>
         </nav>
-    )
-}
+    );
+};
+
+export default Nav;
