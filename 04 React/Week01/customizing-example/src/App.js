@@ -9,16 +9,19 @@ import Promo from './components/Promo';
 
 function App() {
   return (
-    <div className="React">
-      <header className="App-header">
+    <div className="main">
+      <header className="header">
        <Nav />
       </header>
-      <main>
+      <div className="content">
         <Intro1 />
         <Intro2 />
         <Intro3 />
         <Promo />
-      </main>
+      </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
