@@ -9,7 +9,7 @@ function App() {
     <div>
       <Headers name="Anna" color="purple"/>
       <Main greet="Dinesh" />
-      <Sidebar greet="Dinesh" />
+      <Sidebar greet="Hi" />
     </div>
   );
 }
