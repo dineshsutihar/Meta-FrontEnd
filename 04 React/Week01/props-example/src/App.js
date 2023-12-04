@@ -1,5 +1,5 @@
 import './App.css';
-import Headers from './components/Headers';
+import Header from './components/Header';
 import Main from './components/Main';
 import Sidebar from './components/Sidebar';
 
@@ -7,7 +7,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div>
-      <Headers name="Anna" color="purple"/>
+      <Header name="Anna" color="purple"/>
       <Main greet="Dinesh" />
       <Sidebar greet="Hi" />
     </div>
