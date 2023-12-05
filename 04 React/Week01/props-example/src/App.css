@@ -7,3 +7,9 @@
     background-color: darkblue;
     color: white;
   }
+
+  header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
