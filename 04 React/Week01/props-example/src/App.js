@@ -10,8 +10,9 @@ function App() {
       <Header name="Anna" color="purple"/>
       <Main greet="Dinesh" />
       <Sidebar greet="Hi" />
+      <h1>{Math.random() >= 0.5 ? "Over 0.5" : "Under 0.5"}</h1>
     </div>
-    <h1>{Math.random() >= 0.5 ? "Over 0.5" : "Under 0.5"}</h1>
+    
   );
 }
 
