@@ -11,6 +11,14 @@ function App() {
       <Main greet="Dinesh" />
       <Sidebar greet="Hi" />
       <h1>{Math.random() >= 0.5 ? "Over 0.5" : "Under 0.5"}</h1>
+      <div>
+        <h1>My favorite foods</h1>
+        <ul>
+          <li>Apples</li>
+          <li>Oranges</li>
+          <li>Strawberries</li>
+        </ul>
+      </div>
     </div>
     
   );
