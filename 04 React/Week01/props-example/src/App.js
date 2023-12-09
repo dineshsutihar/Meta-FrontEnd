@@ -18,6 +18,13 @@ function App() {
           <li>Oranges</li>
           <li>Strawberries</li>
         </ul>
+
+        <h1>My favorite foods</h1>
+        <ul>
+          <li>Apples</li>
+          <li>Oranges</li>
+          <li>Strawberries</li>
+        </ul>
       </div>
     </div>
     
